@@ -1,0 +1,52 @@
+
+.popup {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    display: none;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #fff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    z-index: 100;
+}
+
+.popup a.close {
+    width: 25px;
+    height: 25px;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    background: url(../img/close.png) no-repeat;
+    background-size: contain;
+}
+
+.reg_form {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 5%;
+    z-index: 100;
+}
+
+.reg_form input {
+    margin-bottom: 10px;
+    padding: 0 35px;
+    color: #fff;
+    height: 50px;
+    font: bold 12px/26px Arial, san-serif;
+    border: 1px solid #ccc;
+}
+
+.reg_form .qestion-input {
+    height: 120px;
+}
+
+@media screen and (max-width: 1440px) {
+
+}

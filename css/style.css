@@ -1,0 +1,968 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1620px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+main {
+    overflow: hidden;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: #c2ab81;
+    transition: 0.5s;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff !important;
+}
+
+.slick-dots li button:before {
+    font-size: 11px !important;
+    color: #f2e2cd !important;
+}
+
+
+.header {
+    background: #272727;
+    position: fixed;
+    top: 0;
+    padding: 30px 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-menu {
+    align-items: center;
+}
+
+.header-logo {
+    padding-right: 75px;
+}
+
+.menu-item {
+    color: #fff;
+    padding-right: 40px;
+}
+
+.application-icon {
+    border: 1px solid #fff;
+    margin: auto 10px auto 0;
+    transform: skew(-15deg);
+    opacity: 0.4;
+}
+
+.application-icon img {
+    padding: 20px 30px;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    border: none;
+}
+
+
+.application-button {
+    background: #C2AB81;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto 0;
+    transform: skew(-15deg);
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+}
+
+.application-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.application-button:hover {
+    background: #b8872d;
+    border-radius: 50px;
+    border: none;
+}
+
+.application-button span {
+    transform: skew(15deg);
+    padding: 20px 75px;
+    display: block;
+}
+
+.application-button span:hover {
+    transform: skew(-15deg);
+    display: block;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+}
+
+.block1 {
+    background: url("../img/block1-bg.png") no-repeat center / cover;
+    padding-top: 545px;
+}
+
+.block1-slide2 {
+    background: url("../img/block1-bg2.png") no-repeat center / cover;
+    padding-top: 545px;
+}
+
+.block1-slide3 {
+    background: url("../img/block1-bg3.png") no-repeat center / cover;
+    padding-top: 545px;
+}
+
+.block1-heading {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.block1-text {
+    opacity: 0.79;
+}
+
+.block1-button {
+    padding-top: 40px;
+    padding-bottom: 165px;
+    align-items: center;
+}
+
+.custom-slider{
+    position: relative;
+}
+
+.button-menu {
+    position: absolute;
+    z-index: 99;
+    right: 90px;
+    bottom: 140px;
+}
+
+.button-menu > div {
+    cursor: pointer;
+}
+
+.button-menu_header {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.button-menu_item {
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.6;
+    padding-top: 15px;
+}
+
+.button-menu_item:hover {
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.block2 {
+    padding-top: 55px;
+    background: #000;
+    padding-bottom: 250px;
+}
+
+.block2-header {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.card-box {
+    background: #fff;
+    color: #000;
+    margin: 0 15px;
+}
+
+.card-box_img {
+    padding-bottom: 25px;
+}
+
+.card-box_img img {
+    width: 100%;
+}
+
+
+.card-box_header {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 20px 20px 20px;
+    font-weight: bold;
+}
+
+.card-box_preview {
+    padding: 0 20px 20px 20px;
+}
+
+.card-box_text {
+    font-size: 14px;
+    color: #666;
+    padding: 0 20px 20px 20px;
+}
+
+.card-box_date {
+    padding: 0 20px 20px 20px;
+    font-size: 12px;
+}
+
+.card-box_button {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card-box_button button {
+    font-size: 14px;
+    color: #fff;
+    background: #171717;
+    padding: 16px 80px;
+    margin: 0 auto;
+}
+
+.card-box_button button:hover {
+    background: #380606;
+    transition: 0.5s;
+    color: #caa45f;
+    cursor: pointer;
+}
+
+.block2-button {
+    margin: 0 auto;
+    display: block;
+}
+
+.burger-menu {
+    display: none;
+    margin: 25px 20px 0 0;
+    padding-left: 1.25em;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 50px;
+    text-align: right;
+}
+
+.menu-close {
+    font-size: 0em;
+    opacity: 0;
+    text-align: center;
+    font-weight: bold;
+
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.menu-close:before {
+    content: "\f00d";
+}
+
+.menu-close-visible {
+    font-size: 2em;
+    opacity: 1;
+
+    -webkit-transition: 0.2s 0.4s;
+    transition: 0.2s 0.4s;
+}
+
+.menu-global {
+    position: absolute;
+    left: 0px;
+    height: 7px;
+    width: 100%;
+    background-color: #000;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.menu-global:hover {
+    left: 10px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.menu-top {
+    top: 0;
+}
+
+.menu-middle {
+    top: 15px;
+}
+
+.menu-bottom {
+    top: 31px;
+}
+
+.menu-bottom_2 {
+
+}
+
+.menu-text {
+    opacity: 0;
+    font-size: 0em;
+    padding: 10px 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.expand {
+    box-shadow: rgba(0, 0, 0, 0.1) -2.5px 5px 7.5px, rgba(0, 0, 0, 0.1) 2.5px 5px 7.5px;
+    width: 200px;
+    height: 50px;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.menu-top-expand {
+    top: 50px;
+    background: #FFF8E1;
+
+    -webkit-transition: all 0.5s 0.2s, left 0.1s;
+    transition: all 0.5s 0.2s, left 0.1s;
+}
+
+.menu-middle-expand {
+    top: 100px;
+    background: #FFECB3;
+
+    -webkit-transition: all 0.5s 0.1s, left 0.1s;
+    transition: all 0.5s 0.1s, left 0.1s;
+}
+
+.menu-bottom-expand {
+    top: 150px;
+    height: 60px;
+    background: #FFE082;
+
+    -webkit-transition: all 0.5s, left 0.1s;
+    transition: all 0.5s, left 0.1s;
+}
+
+.menu-bottom_2-expand {
+    top: 209px;
+    height: 100px;
+    background: #FFE082;
+    display: block !important;
+    -webkit-transition: all 0.5s, left 0.1s;
+    transition: all 0.5s, left 0.1s;
+}
+
+.menu-text-expand {
+    color: #000000;
+    opacity: 0.8;
+    padding: 10px;
+    font-size: 1.3em;
+    -webkit-transition: all 0.2s 0.7s, font-size 0.1s;
+    transition: all 0.2s 0.7s, font-size 0.1s;
+}
+
+
+.trigger-menu {
+    display: none;
+    position: relative;
+    z-index: 99;
+    width: 35px;
+    height: 30px;
+    padding: 0;
+    margin: 0 10px 0 0;
+    outline: none;
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+    -webkit-appearence: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+label {
+    width: 724px;
+}
+
+input {
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.trigger-menu svg {
+    width: 70px;
+    height: 115px;
+    top: -40px;
+    right: -10px;
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    display: block;
+    position: absolute;
+}
+
+.trigger-menu svg path {
+    transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s),
+    stroke-dashoffset var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s);
+    stroke-dasharray: var(--array-1, 26px) var(--array-2, 100px);
+    stroke-dashoffset: var(--offset, 126px);
+    transform: translateZ(0);
+}
+
+.trigger-menu svg path:nth-child(2) {
+    --duration: .7s;
+    --easing: ease-in;
+    --offset: 100px;
+    --array-2: 74px;
+}
+
+.trigger-menu svg path:nth-child(3) {
+    --offset: 133px;
+    --array-2: 107px;
+}
+
+.trigger-menu.menu-open svg path {
+    --offset: 57px;
+}
+
+.trigger-menu.menu-open svg path:nth-child(1),
+.trigger-menu.menu-open svg path:nth-child(3) {
+    --delay: .15s;
+    --easing: cubic-bezier(.2, .4, .2, 1.1);
+}
+
+.trigger-menu.menu-open svg path:nth-child(2) {
+    --duration: .4s;
+    --offset: 2px;
+    --array-1: 1px;
+}
+
+.trigger-menu.menu-open svg path:nth-child(3) {
+    --offset: 58px;
+}
+
+
+.menu-open {
+    display: block !important;
+    opacity: 1 !important;
+    z-index: 10;
+    top: calc(100% + -25px);
+    background: #131313;
+}
+
+.burger-menu-item {
+    flex: 0 0 50%;
+    text-align: left;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px;
+    cursor: pointer;
+    color: #131313;
+    margin-bottom: 0;
+    transition: all 400ms ease;
+    text-shadow: 2px 2px 0 #808080, 2px -2px 0 #808080, -2px 2px 0 #808080, -2px -2px 0 #808080, 2px 0px 0 #808080, 0px 2px 0 #4074b5, -2px 0px 0 #808080, 0px -2px 0 #808080, 0px 0px 0px rgba(54, 121, 206, 0.81);
+}
+
+.burger-menu-item i {
+    color: #000;
+}
+
+.burger-menu-item:hover {
+    color: #fff;
+    background: #c2ab81;
+}
+
+.popup-box {
+    background: #131313;
+}
+
+.popup-box_img img {
+    width: 640px;
+}
+
+.popup-box_info {
+    padding: 0 20px;
+}
+
+.popup-box_info-header {
+    font-size: 42px;
+    padding-top: 76px;
+    padding-bottom: 20px;
+}
+
+.popup-box_info-header span {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+input {
+    background: #131313;
+    width: 100%;
+}
+
+.popup-footer_button {
+    margin-right: 20px;
+    width: 220px;
+}
+
+.popup-footer_button span {
+    padding: 15px 0 !important;
+}
+
+.popup-box_footer-text {
+    font-size: 14px;
+    opacity: 0.6;
+    width: 77%;
+    margin: auto 0;
+}
+
+.popup-box_footer-text a {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .menu-item {
+        padding-right: 20px;
+        font-size: 13px;
+    }
+
+    .header-logo img {
+        width: 90%;
+    }
+
+    .application-icon img {
+        width: 100%;
+    }
+
+    .application-button span {
+        padding: 15px 65px;
+    }
+
+    .popup-box_info {
+        padding-left: 50px;
+    }
+
+    .popup-box_footer-text {
+        font-size: 13px;
+    }
+
+    .application-icon img {
+        padding: 15px 30px;
+    }
+
+    label {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .header-logo {
+        padding-right: 0;
+    }
+
+    .header-logo img {
+        width: 80%;
+    }
+
+    .menu-item {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+
+    .application-icon img {
+        width: 95%;
+    }
+
+    .application-button span {
+        padding: 13px 34px;
+    }
+
+    .application-icon {
+        padding-right: 0;
+    }
+
+    .popup-box_img img {
+        width: 420px;
+    }
+
+    .popup-box_info-header {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .popup-box_info-header span {
+        font-size: 11px;
+        opacity: 0.6;
+    }
+
+    .reg_form input {
+        height: 40px;
+    }
+
+    .reg_form .qestion-input {
+        height: 75px;
+    }
+
+    .popup-footer_button {
+        width: 200px;
+    }
+
+    .popup-box_footer-text {
+        font-size: 11px;
+    }
+
+    .application-icon img {
+        padding: 14px 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none !important;
+    }
+
+    .application-icon_popup {
+        display: none;
+    }
+
+    .popup-button {
+        display: none;
+    }
+
+    .button-menu {
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .header-menu {
+        height: 20px;
+    }
+
+    .header-logo {
+        margin: auto 0 0 80px;
+    }
+
+    .burger-menu {
+        display: none;
+        opacity: 0;
+        position: absolute;
+        z-index: 8;
+        width: 100%;
+        top: 74%;
+        left: 0;
+        max-width: 480px;
+        padding: 40px 66px 490px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        background: #131313;
+        transition: all 400ms ease;
+    }
+
+    #menuToggle {
+        display: none !important;
+    }
+
+    .application-button span {
+        padding: 14px 34px;
+    }
+
+    .trigger-menu {
+        display: block;
+        background: #272727;
+    }
+
+    .application-icon {
+        padding-right: 0;
+        width: 82px;
+    }
+
+    .application-icon img {
+        width: 100%;
+    }
+
+    .block1-button {
+        padding-top: 35px;
+        padding-bottom: 65px;
+    }
+
+    .block1 {
+        padding-top: 370px;
+    }
+
+    .block1-heading {
+        font-size: 30px;
+        line-height: 1.2;
+        padding-bottom: 20px;
+    }
+
+    .block1-text {
+        font-size: 11px;
+    }
+
+    .block1-button {
+        padding-top: 25px;
+        align-items: center;
+    }
+
+    .block1-slide2 {
+        padding-top: 370px;
+    }
+
+    .block1-slide3 {
+        padding-top: 290px;
+    }
+
+    .popup-box {
+        flex-direction: column;
+    }
+
+    .popup-box_img img {
+        width: 100%;
+    }
+
+    .popup-box_info-header {
+        text-align: center;
+        line-height: 1;
+    }
+
+    .popup-box_info-form {
+        text-align: center;
+    }
+
+    .popup-box_footer {
+        flex-direction: column;
+    }
+
+    .popup-box_footer-button {
+        margin: 0 auto 20px auto;
+    }
+
+    .popup-box_footer-text {
+        text-align: center;
+        margin: 0 auto 20px auto;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .trigger-menu svg {
+        width: 55px;
+        top: -47px;
+        right: -45px;
+    }
+
+    .button-menu_item {
+        padding-top: 5px;
+    }
+
+    .application-icon img {
+        padding: 22px 23px;
+    }
+
+    .application-icon_popup {
+        display: block;
+    }
+
+    .popup-button {
+        display: block;
+    }
+
+
+
+    .application-button {
+        font-size: 10px;
+        margin-right: 13px;
+    }
+
+    .header-menu {
+        justify-content: space-around;
+    }
+
+    .application-button span {
+        padding: 1px 30px;
+    }
+
+    .application-icon {
+        margin: 10px auto;
+    }
+
+    .application-button span {
+        padding: 5px 0;
+    }
+
+    .application-button {
+        margin: 0 auto;
+    }
+
+    .block1-down_button {
+        margin: 0;
+    }
+
+    .header {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    .header-logo {
+        margin: auto 0 0 235px;
+    }
+
+    .header-logo img {
+        width: 70%;
+    }
+
+
+
+    .block1 {
+        padding-top: 250px;
+    }
+
+    .block1-heading {
+        font-size: 20px;
+    }
+
+    .block1-text {
+        font-size: 10px;
+    }
+
+    .block1-slide2 {
+        padding-top: 285px;
+    }
+
+    .block1-slide3 {
+        padding-top: 250px;
+    }
+
+    .block2-button {
+        margin: 0 auto;
+    }
+
+    .block2-button span {
+        padding: 15px 35px;
+    }
+
+    .button-menu_header {
+        font-size: 11px;
+    }
+
+    .button-menu_item {
+        font-size: 11px;
+    }
+
+    .block1-down_button {
+        padding: 11px 30px;
+    }
+
+    .header-application {
+        display: none !important;
+    }
+
+    .header-application_burger {
+        display: block !important;
+    }
+
+    .burger-menu {
+        top: 67%;
+    }
+
+    .popup-box_info {
+        padding-left: 10px;
+    }
+
+    .application-icon img {
+        width: 100% !important;
+        padding: 15px 26px!important;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .card-box_button button {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .application-button span {
+        padding: 7px;
+    }
+
+    .application-button {
+        font-size: 8px;
+    }
+
+    .application-icon {
+        padding-right: 0;
+        width: 67px;
+    }
+
+    .trigger-menu svg {
+        width: 44px;
+        top: -50px;
+        right: -40px;
+    }
+
+    .header-logo {
+        margin: auto 0 0 191px;
+    }
+
+    .header-logo img {
+        width: 78%;
+    }
+
+    .card-box_button button {
+        padding: 16px 43px;
+    }
+}
+
+
+
+
+
+
+
+

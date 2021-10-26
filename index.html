@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <title>Document</title>
+</head>
+<main>
+    <body>
+    <div class="header d-flex justify-content-around">
+        <div class="header-menu d-flex justify-content-between">
+            <div class="trigger-menu">
+                <svg viewBox="0 0 45 30">
+                    <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                    <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                    <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                </svg>
+            </div>
+            <div class="burger-menu">
+                <div class="burger-menu-item">Услуги</div>
+                <div class="burger-menu-item">Абонементы</div>
+                <div class="burger-menu-item">Почему мы</div>
+                <div class="burger-menu-item">Оборудование</div>
+                <div class="burger-menu-item">Акции</div>
+                <div class="burger-menu-item">FAQ</div>
+                <div class="burger-menu-item">Контакты</div>
+                <div class="header-application header-application_burger">
+                    <div class="application-icon application-icon_popup">
+                        <img src="img/application-icon.png" alt="">
+                    </div>
+                    <a href="" class="show_popup" rel="reg_form">
+                        <button class="application-button popup-button">
+                <span>
+                    Оставить заявку
+                </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="header-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="menu d-flex justify-content-between">
+                <a href="#">
+                    <div class="menu-item">Услуги</div>
+                </a>
+                <a href="#">
+                    <div class="menu-item">Абонементы</div>
+                </a>
+                <a href="#">
+                    <div class="menu-item">Почему мы</div>
+                </a>
+                <a href="#">
+                    <div class="menu-item">Оборудование</div>
+                </a>
+                <a href="#">
+                    <div class="menu-item">Акции</div>
+                </a>
+                <a href="#">
+                    <div class="menu-item">FAQ</div>
+                </a>
+                <a href="#">
+                    <div class="menu-item">Контакты</div>
+                </a>
+
+            </div>
+        </div>
+        <div class="header-application d-flex justify-content-between">
+            <div class="application-icon">
+                <img src="img/application-icon.png" alt="">
+            </div>
+            <a href="" class="show_popup" rel="reg_form">
+                <button class="application-button">
+                <span>
+                    Оставить заявку
+                </span>
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="popup reg_form">
+            <a class="close" href="#"></a>
+        <div class="popup-box d-flex justify-content-start">
+            <div class="popup-box_img">
+                <img src="img/modal-img.png" alt="">
+            </div>
+            <div class="popup-box_info">
+                <div class="popup-box_info-header">
+                    Оставьте заявку
+                    <br>
+                    <span>Оставьте заявку и наш менеджер свяжется с вами
+                    в течение 10 -15 минут
+                    </span>
+                </div>
+                <div class="popup-box_info-form">
+                    <form action="" method="post">
+                        <label>
+                            <input placeholder="Ваше имя*" type="text">
+                        </label>
+                        <label>
+                            <input placeholder="E-mail*" type="email">
+                        </label>
+                        <label>
+                            <input placeholder="Введите ваш телефон*" type="tel">
+                        </label>
+                        <label>
+                            <input class="qestion-input" placeholder="Ваш вопрос*" type="text">
+                        </label>
+                    </form>
+                </div>
+                <div class="popup-box_footer d-flex justify-content-around">
+                    <div class="popup-box_footer-button">
+                        <button class="application-button popup-footer_button" type="submit">
+                          <span>
+                               Оставить заявку
+                          </span>
+                        </button>
+                    </div>
+                    <div class="popup-box_footer-text">
+                        Нажимая на кнопку “Оставить заявку” вы соглашаетесь
+                        с
+                        <a href="#">“Пользовательским соглашением”</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <section class="custom-slider">
+        <div class="block-sliders">
+            <div class="block1 slide slider slider-for">
+                <div class="container">
+                    <div class="block1-heading">
+                        Полет Илона Маска
+                        <br>
+                        и DOGIE COIN
+                    </div>
+                    <div class="block1-text">
+                        В прошлый четверг все офигели от полета DOGIE COIN на марс.
+                    </div>
+                    <div class="block1-button d-flex justify-content-between">
+                        <a href="" class="show_popup" rel="reg_form">
+                            <button class="application-button">
+                <span>
+                    Оставить заявку
+                </span>
+                            </button>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="block1-slide2 slide slider slider-for">
+                <div class="container">
+                    <div class="block1-heading">
+                        DOGIE COIN
+                        <br>
+                        УПАЛ
+                    </div>
+                    <div class="block1-text">
+                        Все в шоке, я потерял все деньги.
+                    </div>
+                    <div class="block1-button d-flex justify-content-between">
+                        <a href="" class="show_popup" rel="reg_form">
+                            <button class="application-button">
+                <span>
+                    Оставить заявку
+                </span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="block1-slide3 slide slider slider-for">
+                <div class="container">
+                    <div class="block1-heading">
+                        Эпическое возвращения
+                        <br>
+                        на хаи
+                    </div>
+                    <div class="block1-text">
+                        Все в шоке, я снова богат.
+                    </div>
+                    <div class="block1-button d-flex justify-content-between">
+                        <a href="" class="show_popup" rel="reg_form">
+                            <button class="application-button">
+                <span>
+                    Оставить заявку
+                </span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-menu">
+            <div class="button-menu_item" data-slide="1">
+                Dogie coin
+            </div>
+            <div class="button-menu_item" data-slide="2">
+                Упал
+            </div>
+            <div class="button-menu_item" data-slide="3">
+                Возвращение
+            </div>
+        </div>
+    </section>
+    <div class="block2">
+        <div class="container">
+            <div class="block2-header">
+                Карточки
+            </div>
+            <div class="card-row">
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-1.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        Bridge
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-2.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        Water
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-3.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        Bridge
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-4.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        Bridge
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-5.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        Bridge
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-row">
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-6.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        forest
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-7.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        Forest
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-8.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        nature
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-9.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        nature
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-box_img">
+                        <img src="img/card-10.png" alt="">
+                    </div>
+                    <div class="card-box_header">
+                        nature
+                    </div>
+                    <div class="card-box_preview">
+                        How to increase your productivity with a Music
+                    </div>
+                    <div class="card-box_text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem santium doloremque laudantium,
+                        totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolo…
+                    </div>
+                    <div class="card-box_date">
+                        Posted by Eugenia, on July 24, 2019
+                    </div>
+                    <div class="card-box_button">
+                        <button>
+                            Continue reading
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button class="application-button block2-button">
+                <span>
+                    Загрузить еще
+                </span>
+            </button>
+        </div>
+    </div>
+    <script src="js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</main>
+</html>
