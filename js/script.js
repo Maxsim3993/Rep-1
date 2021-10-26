@@ -18,12 +18,12 @@ $(document).ready(function () {
     });
     $('.card-row').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 3,
         dots: false,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1027,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
